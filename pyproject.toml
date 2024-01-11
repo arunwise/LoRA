@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lora"
+version = "0.1.0"
+description = ""
+authors = ["Arun Nampally"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.2"
+transformers = "^4.36.2"
+datasets = "^2.16.1"
+numpy = "^1.26.3"
+jupyter = "^1.0.0"
+peft = "^0.7.1"
+loralib = "^0.1.2"
+evaluate = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
