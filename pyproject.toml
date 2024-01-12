@@ -15,6 +15,7 @@ jupyter = "^1.0.0"
 peft = "^0.7.1"
 loralib = "^0.1.2"
 evaluate = "^0.4.1"
+rouge-score = "^0.1.2"
 
 
 [build-system]
